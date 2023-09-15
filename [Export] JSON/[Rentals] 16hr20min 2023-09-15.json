@@ -1,0 +1,79 @@
+{
+  "Address": {
+    "0": "Brookfield Park, Keenagh, Co. Longford",
+    "1": "29 Thomond Court, Ballymahon, Co. Longford",
+    "2": "Raymond White Auctioneering, 40 Main Street, Ballymahon, Co. Longford",
+    "3": "49 Battery Court, Longford, Longford Town, Co. Longford",
+    "4": "Fardrumman, Ballinamuck, Co. Longford",
+    "5": "Crann Uir, Ennybegs, Co. Longford",
+    "6": "37 Shannon Vale, Longford, Longford Town, Co. Longford",
+    "7": "Weavers Hall, Longford Town, Longford, Co. Longford",
+    "8": "Rathcline Road, Lanesborough, Co. Longford"
+  },
+  "Bed Baths": {
+    "0": "3 bedrooms (1 single, 2 double), 2 bathrooms, unfurnished",
+    "1": "2 bedrooms (2 double), 2 bathrooms, furnished",
+    "2": "3 bedrooms (2 double, 1 twin), 2 bathrooms, furnished",
+    "3": "3 bedrooms (3 double), 3 bathrooms, furnished",
+    "4": "4 bedrooms (4 double), 2 bathrooms, furnished",
+    "5": "3 bedrooms (1 single, 2 double), 2 bathrooms, furnished",
+    "6": "3 bedrooms (1 single, 2 double), 1 bathroom, furnished",
+    "7": "2 bedrooms (2 double), 2 bathrooms, furnished",
+    "8": "4 bedrooms (2 single, 2 double), 1 bathroom, furnished"
+  },
+  "County": {
+    "0": "LONGFORD",
+    "1": "LONGFORD",
+    "2": "LONGFORD",
+    "3": "LONGFORD",
+    "4": "LONGFORD",
+    "5": "LONGFORD",
+    "6": "LONGFORD",
+    "7": "LONGFORD",
+    "8": "LONGFORD"
+  },
+  "Date Published": {
+    "0": "1.0 days ago",
+    "1": "1.04 days ago",
+    "2": "4 days ago",
+    "3": "5 days ago",
+    "4": "11 days ago",
+    "5": "15 days ago",
+    "6": "25 days ago",
+    "7": "51 days ago",
+    "8": "112 days ago"
+  },
+  "Description": {
+    "0": "Available 2nd October - This house is a three bedroom home of c. 123 m\u00b2 (c. 1323 sq. Ft. ) set around a landscaped courtyard. The style of the houses compliments an adjacent period residence, with stone fa\u00e7ade detail and even proportions. The h...            ",
+    "1": "Available Now - Two bedroom apartment in excellent condition. Ground floor. Entrance hall, spacious living room, open plan kitchen and dining room, two large bedrooms, one ensuite , family bathroom. Fast internet, parking\n\n            ",
+    "2": "Available Now - Short term rental -6 months -3 bed 2 bath bungalow available for short term rental. Located 6km from ballymahon along royal canal greenway. Large mature garden to rear of property. No pets allowed. Email enquiries via da...            ",
+    "3": "Available 20th October - Location\nsituated on the private and quiet development of battery court just off the battery road and accessed by the demesne lane. The house is in a cul de sac part of the estate. The town centre is a short walk away as...            ",
+    "4": "Available Now - Detached 4 bedroom house for immediate rent. Located in ballinamuck co longford. Oil central heating. Ground floor : kitchen / dining / utility. Entrance hall , wc , living room. Upstairs : 4 x bedroom. Master bedroom wi...            ",
+    "5": "Available Now - 3 bedroom detached house in quiet rural village located in cul de sac with green area for kids to play. Recently redecorated and fitted with new energy efficient oil boiler. Oil fired central heating with open fire. Mast...            ",
+    "6": "Available Now - 3 bed, fully furnished house with carpet finishing. Located near longford town. A few minutes from train and bus station, schools and shops. Parking available. Contact via mobile number provided after 6pm.\n\n            ",
+    "7": "Available Now - ****email inquiries only****a lovely,spacious modern, 2 bedroom top floor apartment fully furnished to a very good standard offered in exellent condition. The property offers 2 double bedrooms(master en-suite) large sitt...            ",
+    "8": "Available Now - 4 bedroom bungalow for rent. References required. No pets allowed. ********email enquires only - no phone queries please**********\n\n            "
+  },
+  "Link": {
+    "0": "https://www.rent.ie/houses-to-let/Brookfield-Park-Keenagh-Co-Longford/17765421/",
+    "1": "https://www.rent.ie/houses-to-let/29-Thomond-Court-Ballymahon-Co-Longford/17762376/",
+    "2": "https://www.rent.ie/houses-to-let/Raymond-White-Auctioneering-40-Main-Street-Ballymahon-Co-Longford/17696899/",
+    "3": "https://www.rent.ie/houses-to-let/49-Battery-Court-Longford-Longford-Town-Co-Longford/5409195/",
+    "4": "https://www.rent.ie/houses-to-let/Fardrumman-Ballinamuck-Co-Longford/17569304/",
+    "5": "https://www.rent.ie/houses-to-let/Crann-Uir-Ennybegs-Co-Longford/5396390/",
+    "6": "https://www.rent.ie/houses-to-let/37-Shannon-Vale-Longford-Longford-Town-Co-Longford/5384470/",
+    "7": "https://www.rent.ie/houses-to-let/Weavers-Hall-Longford-Town-Longford-Co-Longford/17122941/",
+    "8": "https://www.rent.ie/houses-to-let/Rathcline-Road-Lanesborough-Co-Longford/16328330/"
+  },
+  "Price": {
+    "0": 1350,
+    "1": 1250,
+    "2": 1150,
+    "3": 1600,
+    "4": 1200,
+    "5": 1250,
+    "6": 1400,
+    "7": 1100,
+    "8": 1400
+  }
+}
