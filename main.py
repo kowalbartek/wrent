@@ -32,7 +32,7 @@ class RentalScraper:
             print("There are no rentals in your location.")
             return
 
-        headers = ['Price', 'Address', 'Link', 'Bed Baths', 'Date Published', 'Description', 'County']
+        headers = ['Price', 'Address', 'Link', 'Bed Baths', 'Date Published', 'Description', 'County', 'Image']
 
         # Write headers
         for col, header in enumerate(headers):
@@ -48,6 +48,7 @@ class RentalScraper:
         self.worksheet.write(row, 4, rental.date_published)
         self.worksheet.write(row, 5, rental.description)
         self.worksheet.write(row, 6, rental.county)
+        self.worksheet.write(row, 7, rental.image)
 
     def scrape_rent(self, workbook_name_static=fm.workbook_name()):
         # Function for scraping data
@@ -105,6 +106,18 @@ class RentalScraper:
                     # *** HREF LINK SCRAPE SYNTAX ***
                     href = search.find("a")["href"]
 
+                    # *** IMAGE SCRAPE SYNTAX ***
+                    res_img = self.session.get(href)
+                    soup_img = BeautifulSoup(res_img.text, "html.parser")
+
+                    img = soup_img.find('img', alt=address)
+
+                    # Check if the image element was found
+                    if img:
+                        img = str(img.get('src'))
+                    else:
+                        img = "https://c1.dmstatic.com/1043/i/fronts/rentie/no_image_large.gif"
+
                     # *** BED/BATH SCRAPE SYNTAX ***
                     bed_baths = search.h3.text.strip()
 
@@ -121,7 +134,8 @@ class RentalScraper:
                     description = search.br.next_element[21:]
 
                     # Filling the information into Rental format
-                    rental = Rental(home_price, address, href, bed_baths, published_date, description, county.upper())
+                    rental = Rental(home_price, address, href, bed_baths,
+                                    published_date, description, county.upper(), img)
 
                     # At this point, rental is valid therefore can increase number of rentals
                     self.number_of_rentals += 1

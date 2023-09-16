@@ -1,6 +1,6 @@
 # Rental Property Class - contains all properties we look for
 class Rental:
-    def __init__(self, price, address, link, bed_baths, date_published, description, county):
+    def __init__(self, price, address, link, bed_baths, date_published, description, county, image):
         self.price = price
         self.address = address
         self.link = link
@@ -8,3 +8,4 @@ class Rental:
         self.date_published = date_published
         self.description = description
         self.county = county
+        self.image = image

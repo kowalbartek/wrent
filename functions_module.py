@@ -5,9 +5,8 @@ from time import sleep
 
 
 def workbook_name():
-    now = datetime.now().strftime("%Hhr%Mmin")
     date = datetime.now().strftime("%Y-%m-%d")
-    return f"[Export] XLSX/[Rentals] {now} {date}.xlsx"
+    return f"[Export] XLSX/[Rentals] {date}.xlsx"
 
 
 def save_to_json(workbook_name_static):
